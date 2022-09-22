@@ -123,7 +123,7 @@ docker stop <container ID>
 To setup CI/CD pipeline in heroku we need 3 information:
 ```    
 1. Heroku email id:
-2. Heroku api key: available in accout section
+2. Heroku api key: available in account section
 3. Heroku app name: name of your app
 ```
 
@@ -195,3 +195,8 @@ jobs:
 
 5. After getting into New repository secret tab, fill the Name and Heroku_email in value and save the secret.
 repeat this for API key as well as App name.
+
+6. Go to > 'Actions' in Project folder > re-run all jobs
+
+
+Well Done your CI/CD pipeline is ready to use
