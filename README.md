@@ -77,7 +77,7 @@ git commit -m 'message'
 To send version/changes to github:
 ```
 git push origin main
-``
+```
 origin - it is a url of git hub repositary
 
 
