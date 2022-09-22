@@ -1,4 +1,4 @@
-# First ML project
+# Basic CI/CD Pipeline
 
 ## Requirements
 
@@ -194,7 +194,7 @@ jobs:
 4. Go to > current Project folder in github > settings > secrets > actions > New repository secret.
 
 5. After getting into New repository secret tab, fill the Name and Heroku_email in value and save the secret.
-repeat this for API key as well as App name.
+repeat this for API key as well as App name (should be same as Heroku app_name).
 
 6. Go to > 'Actions' in Project folder > re-run all jobs
 
