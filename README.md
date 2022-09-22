@@ -7,8 +7,15 @@
 3. [VS Code IDE](https://code.visualstudio.com/download)
 4. [GIT cli](https://git-scm.com/downloads)
 
+### Step 1: Creating Project folder in GitHub Repositary:
 
-### Step 1: Virtual environment creation
+Login to GitHub and create a Project folder with 'Name', 'Readme file', '.gitignore' and license
+Clone it to local machine using git clone method 
+```
+git clone <github url of the project folder>
+```
+
+### Step 2: Virtual environment creation:
 
 Creating conda environment in VScode or Pycharm
 
@@ -19,13 +26,13 @@ conda create -p venv python==3.7 -y
 venv : Name of the virtual environment
 -y : Stands for 'yes' to confirm the execution
 
-### Step 2: activating the virtual environment(venv) 
+### Step 3: activating the virtual environment(venv) 
 
 ```
 conda activate venv/
 ```
 
-### Step 3: Installing libraries
+### Step 4: Installing libraries:
 
 creating 'requirement.txt' file to install required libraries
 
@@ -37,11 +44,11 @@ after writing save it and run the below command in terminal
 pip install -r requirement.txt
 ```
 
-### Step 4: Creating Flask web app
+### Step 5: Creating Flask web app:
 
 Create a python file 'app.py' for Flask web application
 
-### Step 5: Pushing code using Git
+### Step 6: Pushing code using Git:
 
 After writing the web application add the files to git.
 
@@ -118,7 +125,7 @@ docker stop <container ID>
 ```
 
 
-### Step 6: Heroku deployment
+### Step 7: Heroku deployment
 
 To setup CI/CD pipeline in heroku we need 3 information:
 ```    
