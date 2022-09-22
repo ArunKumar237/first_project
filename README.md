@@ -86,3 +86,30 @@ To check remote url of git hub repositary:
 git remote -v
 ```
 
+### Step 6:
+
+To setup CI/CD pipeline in heroku we need 3 information:
+    1. Heroku email id:
+    2. Heroku api key: available in accout section
+    3. Heroku app name: name of your app
+
+
+Create a docker file with name 'Dockerfile'
+
+BUILD DOCKER IMAGE:
+```
+docker build -t <image_name>:<tagname> .
+```
+Note: Image name for docker file must be in lower case
+
+
+To list the docker images:
+```
+docker images
+```
+
+
+To Run the image
+```
+docker run -p 5000:5000 -e PORT=5000 <Image ID>
+```
